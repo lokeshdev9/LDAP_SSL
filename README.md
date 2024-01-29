@@ -8,7 +8,6 @@ This project consists of Python scripts to monitor changes in an LDAP server's S
 - [How to Use](#how-to-use)
 - [Dependencies](#dependencies)
 - [Configuration](#configuration)
-- [License](#license)
 
 ## Overview
 
@@ -25,13 +24,14 @@ The project includes two main scripts:
    git clone https://github.com/lokeshdev9/LDAP_SSL.git
    cd LDAP_SSL
 
+## Dependencies
 Install Required Python Packages:
 
 bash
 Copy code
 pip install -r requirements.txt
 
-Configuration:
+## Configuration:
 
 Configure LDAP and Email settings in ldap_ssl_checker.py and notification_script.py
 
